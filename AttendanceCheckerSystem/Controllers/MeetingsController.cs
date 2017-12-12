@@ -18,7 +18,7 @@ namespace AttendanceCheckerSystem.Controllers
         {
             _context = context;
         }
-
+        //
         // GET: Meetings
         public async Task<IActionResult> Index()
         {
